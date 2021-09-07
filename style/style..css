@@ -1,0 +1,144 @@
+.container-fluid{
+padding-right: 12%;
+
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+ margin-left: 8%;
+  
+}
+
+#title{    background-color:#84240c;
+}
+
+
+body{
+   text-align: center;
+}
+
+
+.h1-title{
+    font-family: 'Lobster', cursive;
+    font-size: 4.5rem;
+    line-height: 1.2;
+    color:rgb(0, 0, 0);
+    padding-top: 15%;
+    padding-bottom: 5%;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.nav-item{
+  padding: 0 15px;
+}
+
+
+.d-grid{
+
+    padding-right: 20%;
+}
+
+.navbar{
+  /*  font-family: 'Roboto', sans-serif; */
+    padding-left: 8%;
+}
+
+.btn-ios{
+    margin-bottom: 1rem;
+}
+
+                                                                /*  Features */
+
+
+#features{
+    text-align:center;
+    padding: 5% 7%;
+    /* we can do padding instead of br in paragraph*/
+}
+
+
+h3{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.icon{
+    color: #441407;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #84240c;
+}
+
+
+                                                                 /*  gallary */
+
+
+#gallary
+{
+    background-color:#84240c ;
+    text-align: center;
+}
+
+                                                                  /*  cards */
+
+
+
+h2
+{
+    font-weight: bolder;
+   
+}
+ 
+
+#looks{
+  
+padding: 5% 7%;
+    text-align: center;
+}
+
+
+.looks-column {
+    padding: 3% 2%;
+  }
+  
+                                                                 /*    contact     */
+
+  #contact{
+      color: rgb(255, 255, 255);
+      background-color:#84240c ;
+      text-align: center;
+      padding: 3%;
+     
+  }
+
+
+  .social-icon {
+    margin: 20px 10px;
+  }
+
+  @media (max-width: 1028px)
+{
+    
+
+    .h1-title{
+        padding: 3%;
+        text-align: center;
+    }
+    #title {
+      text-align: center;
+    }
+    .navbar-toggler{
+        padding-right: 15%;
+    }
+     
+
+.d-grid{
+    padding: 2%;
+        }
+}
+  
+  
